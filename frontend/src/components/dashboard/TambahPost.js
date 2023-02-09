@@ -18,7 +18,7 @@ const TambahPost = () => {
   const navigate = useNavigate();
 
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "",
   });
   const openai = new OpenAIApi(configuration);
 
